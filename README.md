@@ -255,7 +255,7 @@ Semua endpoint berada di bawah prefix `/api`:
 | Filament | 3.3 | Admin panel |
 | PHP | 8.2+ | Server-side language |
 | Laravel Sanctum | — | API Authentication |
-| SQLite | — | Database (development) |
+| MySQL | — | Database (development) |
 
 ---
 
