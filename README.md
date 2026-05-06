@@ -23,7 +23,7 @@ Repository ini merupakan **monorepo** yang menyatukan kedua sisi sistem:
 | Direktori | Teknologi | Deskripsi |
 |-----------|-----------|-----------|
 | [`/frontend`](./frontend) | React 18, Vite, Tailwind CSS | Antarmuka pengguna publik |
-| [`/backend`](./backend) | Laravel 12, Filament, SQLite | REST API & panel admin konten |
+| [`/backend`](./backend) | Laravel 12, Filament, MySQL | REST API & panel admin konten |
 
 ---
 
@@ -62,7 +62,7 @@ Repository ini merupakan **monorepo** yang menyatukan kedua sisi sistem:
 │  └─────────────────────────────────────────┘  │
 │                                               │
 │  ┌──────────────┐                             │
-│  │   Database   │  SQLite (dev) / MySQL (prod)│
+│  │   Database   │  MySQL                      │
 │  └──────────────┘                             │
 └───────────────────────────────────────────────┘
 ```
