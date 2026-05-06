@@ -197,9 +197,8 @@ cd frontend
 # Install dependensi Node
 npm install
 
-# Salin dan sesuaikan environment
-cp .env.example .env
-# Edit VITE_API_URL=http://localhost:8000
+# Buat file environment (.env) dan atur URL backend lokal
+echo "VITE_BACKEND_URL=http://localhost:8000" > .env
 
 # Jalankan server pengembangan
 npm run dev
